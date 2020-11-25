@@ -6,7 +6,7 @@ from sklearn.naive_bayes import GaussianNB
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-df=pd.read_excel(r'C:\Users\DELL\gali_01.xlsx')
+df=pd.read_excel(r'gali_01.xlsx')
 ps=PorterStemmer()
 corpus=[]
 
